@@ -1,8 +1,9 @@
-import Login from "./auth/login/page";
+import CreateProfileCard from "./auth/create-card/page";
+
 export default function Home() {
   return (
     <div>
-      <Login />
+      <CreateProfileCard />
     </div>
   );
 }
