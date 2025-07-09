@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 
 export default function Login() {
   return (
@@ -100,13 +101,12 @@ export default function Login() {
                 </span>
                 <p className="text-center text-sm text-gray-500 mt-7">
                   Don't have an account yet?
-                  <a
-                    href="/register"
+                  <Link
+                    href="/auth/register"
                     className="font-semibold text-gray-600 hover:underline focus:text-gray-800 focus:outline-none"
                   >
-                    Sign up
-                  </a>
-                  .
+                    Register
+                  </Link>
                 </p>
               </div>
             </form>
