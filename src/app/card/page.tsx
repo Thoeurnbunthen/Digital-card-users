@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
-import Button from "@/components/ui/button";
+
 
 type CardFormData = {
   fullname: string;
@@ -113,29 +113,7 @@ export default function DigitalCardForm() {
             )}
           </div>
         ))}
-        <div className="flex flex-row  space-y-4 gap-3">
-          <Button
-            type="button"
-            className="w-full mb-4"
-            onClick={() => alert("Button component works!")}
-          >
-            Modern
-          </Button>
-          <Button
-            type="button"
-            className="w-full mb-4 "
-            onClick={() => alert("Button component works!")}
-          >
-            Classic
-          </Button>
-          <Button
-            type="button"
-            className="w-full mb-4"
-            onClick={() => alert("Button component works!")}
-          >
-            Minimal
-          </Button>
-        </div>
+       
 
         <button
           type="submit"
